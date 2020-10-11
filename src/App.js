@@ -8,6 +8,9 @@ function App() {
   return (
     <BrowserRouter className="App">
       <Navbar />
+      <Switch>
+        
+      </Switch>
     </BrowserRouter>
   );
 }
