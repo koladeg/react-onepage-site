@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { MdFingerprint } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from './Button';
+import { IconContext } from "react-icons/lib";
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -20,13 +21,18 @@ const Navbar = () => {
         }
      }
 
+     useEffect(() => {
+         showButton()
+     }, [])
+
      window.addEventListener('resize', showButton)
 
     return (
         <>
+        <IconContext.Provider value={{ color: '#fff'}}>
            <div className="navbar">
                <div className="navbar__container container">
-                    <Link to ='/' className="navbar__logo">
+                    <Link to ='/' className="navbar__logo" onClick= {closeMobileMenu}>
                         <MdFingerprint className='navbar__icon' />
                         BANGER
                     </Link>
@@ -51,13 +57,13 @@ const Navbar = () => {
                         </li>                               
                         <li className="nav__btn">
                          {button ? (
-                            <Link to='/sign-up' className="btn__link">
+                            <Link to='/sign-up' className="btn-link">
                                 <Button buttonStyle='btn--outline'>SIGN UP</Button>
                             </Link>
                          ) : (
-                             <Link to='/sign-up' className="btn__link">
+                             <Link to='/sign-up' className="btn-link">
                                 <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-                                    SIGN up
+                                    SIGN UP
                                 </Button> 
                              </Link>
                          )}
@@ -66,6 +72,7 @@ const Navbar = () => {
                     </ul>
                 </div>
            </div> 
+        </IconContext.Provider>
         </>
     );
 };
