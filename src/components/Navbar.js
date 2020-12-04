@@ -34,7 +34,7 @@ const Navbar = () => {
                <div className="navbar__container container">
                     <Link to ='/' className="navbar__logo" onClick= {closeMobileMenu}>
                         <MdFingerprint className='navbar__icon' />
-                        BANGER
+                        ngPlan
                     </Link>
                     <div className="menu__icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}

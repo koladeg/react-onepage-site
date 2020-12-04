@@ -73,7 +73,7 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               <MdFingerprint className='navbar-icon' />
-              BANGER
+              ngPlan
             </Link>
           </div>
           <small className='website-rights'>BANGER © 2020</small>

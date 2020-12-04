@@ -2,12 +2,13 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zeri fees',
-    description: 'Get access to our exclusive diamond card that allows you to send unlimited transactions without getting charged',
+    topLine: 'FOR PATIENT- AFFORDABLE HEALTHCARE',
+    headline: 'All In The Palm Of Your Hands',
+    description: 
+    'ngPlan is revolutionizing the management of large-scale health schemes in Africa by providing subcribers the opportunity to access good and affordable healthcare wherever whether banked or unbanked with ease through nearby agents or a mobile device',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/svg-1.svg',
+    img: 'images/svg-9.svg',
     alt: 'Credit Card'
 }
 
@@ -30,7 +31,7 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
+    headline: 'Super fast and simple apply',
     description:
       "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
     buttonLabel: 'Start Now',
