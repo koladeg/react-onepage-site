@@ -6,10 +6,10 @@ export const homeObjOne = {
     headline: 'All In The Palm Of Your Hands',
     description: 
     'ngPlan is revolutionizing the management of large-scale health schemes in Africa by providing subcribers the opportunity to access good and affordable healthcare wherever whether banked or unbanked with ease through nearby agents or a mobile device.',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'Learn More',
     imgStart: '',
     img: 'images/svg-9.svg',
-    alt: 'Credit Card'
+    alt: 'Patient'
 }
 
 export const homeObjTwo = {
@@ -33,23 +33,37 @@ export const homeObjTwo = {
     topLine: 'FOR PROVIDERS - FINANCIAL SUPPORT',
     headline: 'Ensure sustainable growth with greater financial opportunities',
     description:
-      "ngPlan provides a comprehensive suite of technology solutions for funding through subscribers, donors, loans and potential partners",
-    buttonLabel: 'Start Now',
+      "ngPlan provides a comprehensive suite of technology solutions for funding through subscribers, donors, loans and potential partners.",
+    buttonLabel: 'Learn More',
     imgStart: 'start',
     img: 'images/svg-1.svg',
-    alt: 'Vault'
+    alt: 'Providers'
   };
   
   export const homeObjFour = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'Every transaction is stored on our secure cloud database',
+    topLine: 'FOR PARTNERS - TOOLS AND DATA ANALYTICS',
+    headline: 'Focused on accelerating universal health coverage',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
+      'ngPlan provides partners who care about accelerating universal health coverage with the information, insights and tools to gather real world evidence and make important decisions such as allocating resources, managing population health or creating smart policy.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
-    img: 'images/svg-8.svg',
-    alt: 'Vault'
+    img: 'images/svg-3.svg',
+    alt: 'Partners'
+  };
+
+  export const homeObjFive = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'FOR AGENTS - FINANCIAL SUPPORT',
+    headline: 'Ensure sustainable growth with greater financial opportunities',
+    description:
+      "ngPlan provides a comprehensive suite of technology solutions for funding through subscribers, donors, loans and potential partners.",
+    buttonLabel: 'Learn More',
+    imgStart: 'start',
+    img: 'images/svg-1.svg',
+    alt: 'Agent'
   };
