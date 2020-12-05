@@ -5,7 +5,7 @@ export const homeObjOne = {
     topLine: 'FOR PATIENT - AFFORDABLE HEALTHCARE',
     headline: 'All In The Palm Of Your Hands',
     description: 
-    'ngPlan is revolutionizing the management of large-scale health schemes in Africa by providing subcribers the opportunity to access good and affordable healthcare wherever whether banked or unbanked with ease through nearby agents or a mobile device',
+    'ngPlan is revolutionizing the management of large-scale health schemes in Africa by providing subcribers the opportunity to access good and affordable healthcare wherever whether banked or unbanked with ease through nearby agents or a mobile device.',
     buttonLabel: 'Get Started',
     imgStart: '',
     img: 'images/svg-9.svg',
@@ -16,13 +16,13 @@ export const homeObjTwo = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: '100% SECURE',
-    headline: 'Stay protected 24/7 anywhere anytime',
+    topLine: 'FOR PAYERS - 100% SECURE',
+    headline: 'Transparent and traceable transactions',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+      'Through decentralised solutions ngPlan introduces data, transparency and cost efficiency in health financing and ensures all transactions are immutable and traceable by a network of peers to track real-time updates. This enables funders of all types to seamlessly and confidently pay for halthcare.',
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: 'images/svg-1.svg',
+    img: 'images/svg-2.svg',
     alt: 'Vault'
   };
   
@@ -36,7 +36,7 @@ export const homeObjTwo = {
       "ngPlan provides a comprehensive suite of technology solutions for funding through subscribers, donors, loans and potential partners",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
+    img: 'images/svg-1.svg',
     alt: 'Vault'
   };
   
