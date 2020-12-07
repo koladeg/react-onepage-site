@@ -58,12 +58,12 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'FOR AGENTS - FINANCIAL SUPPORT',
-    headline: 'Ensure sustainable growth with greater financial opportunities',
+    topLine: 'FOR AGENTS - HEALTH PLAN',
+    headline: 'Be a part of universal health coverage',
     description:
-      "ngPlan provides a comprehensive suite of technology solutions for funding through subscribers, donors, loans and potential partners.",
+      "ngPlan Agents recieve commission on every transaction made through the agent as well as an health plan with the provider the agent is assigned to.",
     buttonLabel: 'Learn More',
     imgStart: 'start',
-    img: 'images/svg-1.svg',
+    img: 'images/svg-7.svg',
     alt: 'Agent'
   };

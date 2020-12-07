@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSect from '../../HeroSect';
 import Pricing from '../../Pricing';
-import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from './Data';
+import { homeObjFive, homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from './Data';
 
 const Home = () => {
     return (
@@ -11,6 +11,7 @@ const Home = () => {
           <HeroSect {...homeObjTwo} />
           <Pricing />
           <HeroSect {...homeObjFour} /> 
+          <HeroSect {...homeObjFive} /> 
         </>
     );
 };
